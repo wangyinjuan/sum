@@ -19,7 +19,7 @@ class TestClac(unittest.TestCase):
         GetDriver().quit_driver()
 
     # @parameterized.expand(read_txt("data.txt"))
-    @allure.step(title="计算")
+    @allure.step(title="计算"...)
     def test_add_clac(self):
         self.clac.page_add_clac(1, 2)
 
